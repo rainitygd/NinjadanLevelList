@@ -1,22 +1,22 @@
 [
 {
-        "name": "Nine Circles Pack",
-        "levels": ["cs", "swc", "forward_circles"],
+        "name": "no packs yet",
+        "levels": [""],
         "colour": "#ff9100"
     },  
 {
-        "name": "Red Haze Saga",
-        "levels": ["red_haze", "red_haze2"],
+        "name": "cuz no levels",
+        "levels": [""],
         "colour": "#eb4034"
     },
 {
-        "name": "Super Easy Pack",
-        "levels": ["infiltration", "tension"],
+        "name": "hello",
+        "levels": [""],
         "colour": "#0026ff"
     },
 {
-        "name": "High Detail Pack",
-        "levels": ["6am", "2part", "your_last_grasp"],
+        "name": "idk",
+        "levels": [""],
         "colour": "#a3a31f"
 }
 ]
