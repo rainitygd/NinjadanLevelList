@@ -9,7 +9,7 @@
         content="The list that Lists" />
     <meta property="og:url" content="https://demonlist.lorer.in/" />
     <meta property="og:image" content="/tsl_icon.png" />
-    <title>The LorerGDPS DemonList</title>
+    <title>Ninjadan Levels List</title>
     <link rel="icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,8 +34,8 @@
             <div class="logo">
                 <img v-if="store.shitty" src="assets/Aprtil-logo.png" alt="o am not going to fix" />
                 <div v-else class="logo">
-                    <h2>LorerGDPS</h2>
-                    <p>v2.101</p>
+                    <h2>NLL</h2>
+                    <p>v1.0</p>
                 </div>
             </div>
             <nav class="nav">
@@ -70,16 +70,19 @@
                             alt=""
                         />
                     </button>
-                    <a class="nav__icon" href="https://discord.com/invite/vxW5eUdcGh">
+                    <!-- Replace the '#' with your discord server's invite-->
+                    <a class="nav__icon" href="https://discord.gg/kQwVjD26">
                         <img src="/assets/discord.svg" alt="Discord Logo" />
                     </a>
+                    <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
                     <a class="nav__cta type-label-lg"
-                        href="https://discord.com/invite/vxW5eUdcGh"
-                        target="_blank">Submit Record</a>
+                        href="https://forms.gle/YPoAUbC1h8X6Qpv49"
+                        target="_blank"
+                        >Submit Record</a>
                 </div>
             </nav>
         </header>
-        <router-view></router-view>
+        <router-view :class="{ dark: store.dark }"></router-view>
     </div>
 </body>
 
